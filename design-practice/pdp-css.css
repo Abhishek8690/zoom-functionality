@@ -1,0 +1,33 @@
+.product-div {
+    display: flex;
+justify-content: space-between;
+}
+.product-image {
+    width: 50%;
+    aspect-ratio: 625/629;
+    border: 1px solid grey;
+    position: relative;
+    max-width: 623px;
+    max-height: 623px;
+    overflow: hidden;
+}
+.position-absolute {
+    position: absolute;
+    transform: scale(1.5);
+
+}
+.product-image img {
+    width: 100%;
+}
+.product-description {
+    width: 45%;
+}
+.breadcrumb-p .active {
+    color: black;
+}
+.breadcrumb-p span {
+    color: #7f73e2;
+}
+.other-images-div img{
+    border: 1px solid black;
+}
